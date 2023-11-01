@@ -6,8 +6,8 @@ public class Dado {
 
 
     // ===== CONSTRUCTOR =====
-    public Dado(int caraSuperior) {
-        this.caraSuperior = caraSuperior;
+    public Dado() {
+        lanzarDado();
     }
 
 
@@ -23,4 +23,6 @@ public class Dado {
     public int getCaraSuperior() {
         return caraSuperior;
     }
+
+
 }
