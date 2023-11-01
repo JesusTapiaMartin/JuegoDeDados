@@ -24,5 +24,9 @@ public class Dado {
         return caraSuperior;
     }
 
+    // ===== SETTER =====
 
+    public void setCaraSuperior(int caraSuperior) {
+        this.caraSuperior = caraSuperior;
+    }
 }
