@@ -5,6 +5,12 @@ public class Dado {
     private int caraSuperior;
 
 
+    // ===== CONSTRUCTOR =====
+    public Dado(int caraSuperior) {
+        this.caraSuperior = caraSuperior;
+    }
+
+
     // ===== LANZAMIENTO DADO =====
     public int lanzarDado(){
         Random random = new Random();
